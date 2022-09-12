@@ -1,11 +1,11 @@
 //
-// Created by Michael Gobs on 9/10/2022.
+// Created by Michael Goboola on 9/10/2022.
 //
-
 
 #include <iostream>
 using namespace std;
 
+// linear search 
 int search(int arr[], int N, int x)
 {
     int i;
@@ -46,6 +46,7 @@ arr[j] = arr[j+1];
 }
 return n;
 }
+
 int highest_number(in arr[])
 {
     int i;
@@ -62,6 +63,7 @@ int highest_number(in arr[])
 
     return max;
 }
+
 // Driver's code
 int main(void)
 {
