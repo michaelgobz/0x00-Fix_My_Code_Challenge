@@ -11,7 +11,7 @@ using namespace std;
  * asymptotic runtime O(n)
  * **/
 
-int search(int arr[], int N, int x)
+int linearSearch(int arr[], int N, int x)
 {
     int i;
     for (i = 0; i < N; i++)
@@ -257,7 +257,7 @@ int main(void)
                 cout << "Enter number to Search \n";
                 cin >> number;
                 // Function call
-                 result = search(arr, n, number);
+                 result = linearSearch(arr, n, number);
                 (result == -1)
                 ? cout << "Element is not present in array"
                 : cout << "Element is present at index " << result;
